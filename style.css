@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle, #ffffff, #f4f4f4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo-box {
+  background: #ffffff;
+  border: 2px solid #2a57ff;
+  border-radius: 16px;
+  padding: 35px 30px 20px;
+  width: 420px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.user-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.user-icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #2a57ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2a2a2a;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+input[type="text"] {
+  width: 240px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  background-color: white;
+  color: #333;
+}
+
+button {
+  background-color: #2a57ff;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1f46cc;
+}
+
+h2 {
+  color: #2a2a2a;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+
+.pending {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: #999;
+  opacity: 0.7;
+}
+
+li input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  accent-color: #2a57ff;
+}
+
+li span {
+  flex: 1;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.actions button:hover {
+  text-decoration: none;
+}
+
+.actions button:first-child {
+  color: #e74c3c;
+}
+
+.actions button:first-child:hover {
+  background-color: #fdecea;
+}
+
+.actions button:last-child {
+  color: #17a2b8;
+}
+
+.actions button:last-child:hover {
+  background-color: #e8f8fb;
+}
+
+.divider {
+  height: 2px;
+  background-color: #2a57ff;
+  margin: 20px 0 10px;
+  border-radius: 2px;
+}
+
+
+.summary {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 0;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.filters button {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.filters button:hover {
+  background-color: #2a57ff;
+  color: white;
+  border-color: #2a57ff;
+}
+.todo-box {
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  border-color: #ffffff;
+}
+
+.todo-box:hover {
+  border-color: #1f46cc;
+  box-shadow: linear-gradient(135deg, #2a57ff, #00c6ff);
+}
