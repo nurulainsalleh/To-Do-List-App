@@ -29,3 +29,12 @@ Start Apache via your XAMPP control panel.
 In your browser, go to:
 http://localhost/To-Do-List-App/
 Or, use the Live Server extension in VS Code.
+
+
+
+Results
+1. The Frontend
+   <img width="1916" height="861" alt="image" src="https://github.com/user-attachments/assets/8e077db9-58be-4e06-b20f-18c52a4275b7" />
+
+2. The Backend
+   - I'm using Javascript languange to execute all the function
