@@ -33,15 +33,15 @@ Or, use the Live Server extension in VS Code.
 
 
 Results
-1. The Frontend
+1. The Frontend <br>
    <img width="1916" height="861" alt="image" src="https://github.com/user-attachments/assets/8e077db9-58be-4e06-b20f-18c52a4275b7" />
-
-2. The Backend
+<br>
+2. The Backend <br>
    Here's the list of features of what i added:
-   - Loads tasks from localStorage when the page opens, so the tasks don’t disappear when refreshed.
-   - Adds, edits, deletes, and checks tasks using buttons and checkboxes.
-   - Saves tasks to localStorage so changes are remembered.
-   - Filters tasks (all or completed only).
-   - Shows task counts (how many are done or not done).
-   - Clears all completed tasks with one button.
-   - Exports tasks to Excel using a library (XLSX) instead of JSON files.
+   <br>⦁ Loads tasks from localStorage when the page opens, so the tasks don’t disappear when refreshed.
+   <br>⦁ Adds, edits, deletes, and checks tasks using buttons and checkboxes.
+   <br>⦁ Saves tasks to localStorage so changes are remembered.
+   <br>⦁ Filters tasks (all or completed only).
+   <br>⦁ Shows task counts (how many are done or not done).
+   <br>⦁ Clears all completed tasks with one button.
+   <br>⦁ Exports tasks to Excel using a library (XLSX) instead of JSON files.
