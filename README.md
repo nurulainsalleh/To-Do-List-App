@@ -43,7 +43,8 @@ Or, use the Live Server extension in VS Code.
 
 Results
 1. The Frontend <br>
-   <img width="1916" height="861" alt="image" src="https://github.com/user-attachments/assets/8e077db9-58be-4e06-b20f-18c52a4275b7" />
+   <img width="1917" height="858" alt="image" src="https://github.com/user-attachments/assets/4d0ffd26-6f89-4f9d-8fd3-ee38ad2c0130" />
+
 <br>
 2. The Backend <br>
    Here's the list of features of what i added:
