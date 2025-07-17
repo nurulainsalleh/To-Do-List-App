@@ -37,4 +37,11 @@ Results
    <img width="1916" height="861" alt="image" src="https://github.com/user-attachments/assets/8e077db9-58be-4e06-b20f-18c52a4275b7" />
 
 2. The Backend
-   - I'm using Javascript languange to execute all the function
+   Here's the list of features of what i added:
+   - Loads tasks from localStorage when the page opens, so the tasks don’t disappear when refreshed.
+   - Adds, edits, deletes, and checks tasks using buttons and checkboxes.
+   - Saves tasks to localStorage so changes are remembered.
+   - Filters tasks (all or completed only).
+   - Shows task counts (how many are done or not done).
+   - Clears all completed tasks with one button.
+   - Exports tasks to Excel using a library (XLSX) instead of JSON files.
