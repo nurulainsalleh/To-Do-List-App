@@ -2,13 +2,22 @@ To Do-List App
 
 This is a basic To-Do List web application built using HTML, CSS, and Javascript. It allows users to create, view, and delete tasks. I built this as part of my the assessment to create a CRUD module.
 
-Features
+Requirement Features
 <br> ⦁	Add new tasks
 <br>  ⦁	View list of tasks
 <br> ⦁	Delete tasks
 <br> ⦁	Basic form validation
 <br> ⦁	Clean and modern UI (HTML/CSS/JS separated)
 <br> ⦁	Export function to Excel file
+
+Added Features
+<br> ⦁	View Task List
+<br> ⦁	Basic Form Validation
+<br> ⦁	Filter Tasks
+<br> ⦁	Clear Completed Tasks
+<br> ⦁	Export to Excel
+<br> ⦁	Task Status Counter
+<br> ⦁	Responsive UI
 
 How to Run the Project
 <br> Option 1: Live Demo
